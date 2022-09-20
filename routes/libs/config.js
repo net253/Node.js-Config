@@ -3,8 +3,8 @@ module.exports = {
   database: "B14_UTILITY",
   user: "iiot-center",
   password: "Snc@2022",
-  option: {
+  options: {
     encrypt: false,
-    trustServerCertificate: false,
+    trustServerCertificate: true,
   },
 };
